@@ -1,7 +1,7 @@
 import AnimalsShow from './AnimalsShow';
 
 function App() {
-  const clickHandle = () => {
+  const handleClick = () => {
     console.log('button has just click');
   };
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <AnimalsShow />
       <div>
-        <button onClick={clickHandle}>Add animal</button>
+        <button onClick={handleClick}>Add animal</button>
       </div>
     </>
   );
